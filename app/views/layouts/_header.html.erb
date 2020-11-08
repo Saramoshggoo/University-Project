@@ -3,6 +3,7 @@
                   <li><%=link_to "logout",logout_path, method: :delete%></li>
                 <%else%>
                 <li><%=link_to "login",login_path%></li>
+                <li><%=link_to "signup",  new_student_path%></li>
                 <%end%>
      </ul>
      <ul id="dropdown2" class="dropdown-content">
@@ -10,6 +11,7 @@
                   <li><%=link_to "logout",logout_path, method: :delete%></li>
                 <%else%>
                 <li><%=link_to "login",login_path%></li>
+                <li><%=link_to "signup",login_path%></li>
                 <%end%>
      </ul>
       <nav class=" indigo  teal darken-1">
